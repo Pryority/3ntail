@@ -1,6 +1,6 @@
 {
   "name": "@pryority/3ntail",
-  "version": "0.2.1",
+  "version": "0.1.0",
   "bin": "./bin/cli.js",
   "scripts": {
     "dev": "next dev",
