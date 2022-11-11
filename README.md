@@ -18,7 +18,7 @@ npx @pryority/3ntail@latest <YOUR_APP_NAME or . to use the current directory nam
 - or clone the *GitHub repo* in a fresh directory
 ```
 git clone https://github.com/pryority/3ntail.git
-cd 3ntail && yarn install
+cd 3ntail && yarn install && code .
 ```
 
 2. Install the package dependencies into your local repo
