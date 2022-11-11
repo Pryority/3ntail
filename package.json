@@ -1,5 +1,5 @@
 {
-  "name": "@pryority/nemiwind",
+  "name": "@pryority/3ntail",
   "version": "0.2.1",
   "bin": "./bin/cli.js",
   "scripts": {
@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
-    "@rainbow-me/rainbowkit": "^0.7.4",
+    "@thirdweb-dev/react": "^3.5.2",
+    "@thirdweb-dev/sdk": "^3.5.2",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
@@ -21,8 +22,8 @@
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "thirdweb": "^0.8.15",
     "typescript": "*",
-    "wagmi": "^0.8.1",
     "yarn": "^1.22.19"
   },
   "devDependencies": {

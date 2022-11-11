@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import { ConnectButton } from "@rainbow-me/rainbowkit";
-// import { Faucet } from "~~/components/scaffold-eth";
+import { ConnectWallet } from "@thirdweb-dev/react";
+import Link from "next/link";
+
+const logo = "/assets/thirdweb-logo.png";
 
 export default function Header() {
   return (
@@ -20,17 +22,7 @@ export default function Header() {
           </a>
         </div>
 
-        <ConnectButton
-          accountStatus={{
-            smallScreen: "avatar",
-            largeScreen: "full",
-          }}
-          showBalance={true}
-          chainStatus={{
-            smallScreen: "icon",
-            largeScreen: "full",
-          }}
-        />
+        <ConnectWallet/>
       </div>
       {/* <Faucet /> */}
     </footer>

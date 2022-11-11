@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,9 +14,9 @@ export default function Home() {
       <main className={"flex flex-col space-y-16 w-full"}>
         <div className="flex flex-col w-full justify-center items-center">
           <div className="flex flex-col justify-end md:items-end">
-            <a href="https://nextjs.org" className='text-4xl font-extrabold lowercase tracking-tighter italic'>Nemiwind</a>
+            <a href="https://nextjs.org" className='text-4xl font-extrabold lowercase tracking-tighter italic'>3ntail</a>
             <h1 className={"font-light text-sm"}>
-              A Nextjs, Wagmi, Tailwind starter site for instant experimentation
+              Thirdweb, Next.js, Tailwind starter site for instant experimentation
             </h1>
           </div>
         </div>
@@ -41,7 +42,7 @@ export default function Home() {
           </a>
 
           <a href="https://wagmi.sh/docs/getting-started" className={"flex flex-col cursor-default"}>
-            <h2 className='dependency-section'>Ethereum Access: WAGMI &rarr;</h2>
+            <h2 className='dependency-section'>Blockchain Dashboard, SDKs, Contracts: Thirdweb &rarr;</h2>
             {/* insert wagmi bio */}
             <p className="dependency-description">
               wagmi is a collection of React Hooks containing everything you need to start working with Ethereum. wagmi makes it easy to &apos;<span className="underline">Connect Wallet</span>,&apos; display <span className="text-blue-600 font-medium tracking-tight">ENS</span> and balance information, sign messages, interact with contracts, and much more — all with caching, request deduplication, and persistence.
