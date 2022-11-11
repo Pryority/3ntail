@@ -26,4 +26,4 @@ if (!installedDeps) process.exit(-1);
 
 console.log("🎉 Congratulations! You are ready to use:  3ntail 3️⃣🪶 \n\n");
 console.log("📄 Copy and paste the following command to start using your new 3ntail scaffold app ↙️");
-console.log(`cd ${repoName} && yarn dev`);
+console.log(`cd ${repoName} && yarn dev && code .`);
