@@ -1,8 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), [`wagmi`](https://wagmi.sh/) [`Tailwindcss`](https://tailwindcss.com/docs/guides/nextjs) with the goal of making the setup of a Web App connecte to Ethereum faster.
 
-## nemiwind 🌪
+## 3ntail 3️⃣🪶
 
-> Install this starter kit to get building dapp frontends even faster 💨
+> Install this starter kit to get building dapp frontends even faster 
 
 ![Demo 1](./nemiwind-demo.png)
 

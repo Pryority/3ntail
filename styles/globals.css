@@ -4,7 +4,7 @@
 
 @layer utilities {
   .dependency-section {
-    @apply cursor-pointer text-orange-600 hover:text-orange-800 dark:text-orange-50 dark:hover:text-orange-200 transition-all ease-in-out duration-500;
+    @apply cursor-pointer text-orange-50 hover:text-orange-800 dark:text-orange-50 dark:hover:text-orange-200 transition-all ease-in-out duration-500;
   }
   .dependency-description {
     @apply cursor-default text-sm text-stone-800 dark:text-orange-50 dark:hover:text-orange-200 transition-all ease-in-out duration-500;

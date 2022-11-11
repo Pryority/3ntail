@@ -13,17 +13,17 @@ const runCommand = (command) => {
 };
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --depth 1 https://github.com/pryority/nemiwind ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/pryority/3ntail ${repoName}`;
 const installDepsCommand = `cd ${repoName} && yarn install`;
 
-console.log(`Cloning the repository with name ${repoName}`);
+console.log(`🧬 Cloning the repository with name ${repoName}`);
 const checkedOut = runCommand(gitCheckoutCommand);
 if (!checkedOut) process.exit(-1);
 
-console.log(`💾 Installing dependencies for ${repoName}, your nemiwind app`);
+console.log(`💾 Installing dependencies for ${repoName}, your 3ntail scaffold app`);
 const installedDeps = runCommand(installDepsCommand);
 if (!installedDeps) process.exit(-1);
 
-console.log("Congratulations! You are ready to use:  n e m i w i n d 🌪 \n\n");
-console.log("Copy and paste the following command to start using your new nemiwind app ↙️");
+console.log("🎉 Congratulations! You are ready to use:  3ntail 3️⃣🪶 \n\n");
+console.log("📄 Copy and paste the following command to start using your new 3ntail scaffold app ↙️");
 console.log(`cd ${repoName} && yarn dev`);
