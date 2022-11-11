@@ -18,7 +18,7 @@ npx @pryority/3ntail@latest <YOUR_APP_NAME or . to use the current directory nam
 - or clone the *GitHub repo* in a fresh directory
 ```
 git clone https://github.com/pryority/3ntail.git
-cd nemiwind && yarn install
+cd 3ntail && yarn install
 ```
 
 2. Install the package dependencies into your local repo
@@ -47,6 +47,6 @@ To learn more about Next.js, take a look at the following resources:
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Nemiwind app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your 3ntail app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
