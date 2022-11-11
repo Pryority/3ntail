@@ -1,23 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), [`wagmi`](https://wagmi.sh/) [`Tailwindcss`](https://tailwindcss.com/docs/guides/nextjs) with the goal of making the setup of a Web App connecte to Ethereum faster.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), [`thirdweb`](https://thirdweb.com/) [`Tailwindcss`](https://tailwindcss.com/docs/guides/nextjs) with the goal of making simpler starting points for blockchain app development.
 
 ## 3ntail 3️⃣🪶
 
 > Install this starter kit to get building dapp frontends even faster 
 
-![Demo 1](./nemiwind-demo.png)
+![Demo 1](./3ntail-demo.png)
 
 ---
 
 ## Quickstart
 
-1. Install the *nemiwind* package...
+1. Install the *3ntail* package...
 
 ```
-npx @pryority/nemiwind@latest <YOUR_APP_NAME or . to use the current directory name>
+npx @pryority/3ntail@latest <YOUR_APP_NAME or . to use the current directory name>
 ```
 - or clone the *GitHub repo* in a fresh directory
 ```
-git clone https://github.com/pryority/nemiwind.git
+git clone https://github.com/pryority/3ntail.git
 cd nemiwind && yarn install
 ```
 
@@ -42,7 +42,7 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Learn WAGMI](https://wagmi.sh/) - the wagmi documentation.
+- [Learn Thirdweb](https://thirdweb.com/) - the Thirdweb documentation.
 - [Learn Tailwind](https://tailwindcss.com/docs/guides/nextjs) - the Tailwind installation process for Next.js.
 
 ## Deploy on Vercel
